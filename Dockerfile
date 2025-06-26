@@ -1,7 +1,7 @@
 # --- Tahap 1: Build ---
 # Menggunakan image Go versi 1.22 yang berbasis Alpine sebagai builder.
 # Alpine dipilih karena ukurannya yang kecil.
-FROM golang:1.22-alpine AS builder
+FROM golang:1.24-alpine AS builder
 
 # Menentukan direktori kerja di dalam container.
 WORKDIR /app
