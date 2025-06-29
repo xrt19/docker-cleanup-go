@@ -12,7 +12,7 @@ import (
 func main() {
 	// Menampilkan pesan bahwa server sedang berjalan.
 	fmt.Println("Server akan berjalan di port 8080...")
-	fmt.Println("tes pembeda kamis 26 juni 2025 jam 17.38")
+	fmt.Println("tes pembeda minggu 29 juni 2025 jam 13.42")
 
 	// Menangani permintaan ke path root "/"
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
